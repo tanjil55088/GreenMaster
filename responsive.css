@@ -1,0 +1,110 @@
+
+/* Tablet Layout: 1170px. */
+
+@media only screen and (min-width: 1170px){
+.container {width:1170px}
+
+
+
+}
+
+/* Tablet Layout: 970px. */
+
+@media only screen and (min-width: 970px) and (max-width: 1169px) {
+.container {width:970px;}
+.carousel-caption h1 {
+  font-size: 58px;
+}
+.carousel-caption p {
+  padding: 30px 208px;
+}
+.single_recipe img{width:100%;}
+}
+
+
+/* Tablet Layout: 750px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container {width:750px}
+.carousel-caption h1 {
+  font-size: 46px;
+}
+.carousel-caption p {
+  padding: 30px 85px;
+}
+.single_recipe img{width:100%;}
+.same_width_field {
+  width: 206px;
+}
+.contact_bottom textarea {
+  width: 650px;
+}
+.title_all {
+  padding: 0 86px 47px;
+  text-align: center;
+}
+
+
+
+}
+
+@media (max-width: 768px) {
+.carousel-caption p {
+  padding: 22px 50px;
+}
+.carousel-caption {
+  bottom: 33px;
+}
+.carousel-caption h1 {
+  font-size: 31px;
+  letter-spacing: 0;
+}
+.contact_bottom textarea {
+  width: 90%;
+}
+.same_width_field {
+  width: 29%;
+}
+.title_all {
+  padding: 0 86px 47px;
+  text-align: center;
+}
+.single_recipe img{width:100%;}
+}
+
+@media (max-width: 450px) { 
+.carousel-caption {
+  display:none;
+}
+.carousel-caption h1 {
+  font-size: 31px;
+  letter-spacing: 0;
+}
+.contact_bottom textarea {
+  width: 90%;
+}
+.same_width_field {
+  width: 90%;
+}
+.single_recipe img{width:100%;}
+.title_all {
+  padding: 0;
+}
+.carousel-indicators {
+  left: 0%;
+  margin-left: 0;
+  padding-left: 0;
+}
+.contact_main input[type="submit"] {
+  width: 90%;
+}
+.title_all h2 {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+.order h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.order_area{background-position: 0% 0px;}
+} 
